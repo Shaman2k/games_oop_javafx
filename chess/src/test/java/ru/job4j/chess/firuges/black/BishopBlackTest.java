@@ -10,7 +10,7 @@ class BishopBlackTest {
     @Test
     void position() {
         Cell position = Cell.C8;
-        Figure bishop= new BishopBlack(position);
+        Figure bishop = new BishopBlack(position);
         Cell expected = bishop.position();
         assertThat(position).isEqualTo(expected);
     }
